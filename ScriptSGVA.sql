@@ -1,5 +1,4 @@
 create database Trazabilidad_SGVA;
-
 use Trazabilidad_SGVA;
 
 create table Trazabilidad(
@@ -19,3 +18,6 @@ create table Empresa(
     codigo_empresa varchar(100) not null,
     nombre_empresa varchar(100) not null
 );
+
+describe empresa;
+describe trazabilidad;
